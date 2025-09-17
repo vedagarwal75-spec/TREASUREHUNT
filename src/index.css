@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Extra styles for body */
+body {
+  @apply bg-gradient-to-br from-yellow-100 via-pink-100 to-purple-200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
